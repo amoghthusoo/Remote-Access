@@ -4,7 +4,7 @@ from kivy.lang import Builder
 
 
 client_socket = s.socket()
-client_socket.connect(('192.168.228.36', 9999))
+client_socket.connect(('localhost', 9999))
 print()
 print(client_socket.recv(1024).decode())
 
