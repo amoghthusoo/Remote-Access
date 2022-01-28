@@ -20,27 +20,9 @@ while True:
     flow = client_socket.recv(1024).decode()
 
     if flow == 'True':
-        ws.PlaySound('Kalki.wav', ws.SND_ASYNC)
+        ws.PlaySound('<example>.wav', ws.SND_ASYNC)   # Edit this line.
         
         
     elif flow == 'False':
         ws.PlaySound(None, ws.SND_PURGE)
         
-    
-    
-
-
-
-    
-        
-    
-
-
-
-
-
-
-
-
-
-
