@@ -4,7 +4,7 @@ import socket as s
 server_socket = s.socket()
 print()
 print('Socket Created')
-server_socket.bind(('192.168.44.36', 9999))
+server_socket.bind(('localhost', 9999))
 server_socket.listen(1)
 print('Waiting for connections')
 
